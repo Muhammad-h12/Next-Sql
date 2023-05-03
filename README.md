@@ -1,8 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+### Nextjs with mySql database
+
 ## Getting Started
 
-First, run the development server:
+First , Create the .env file, then add your database credentails :
+
+```bash
+DB_HOST= "host_name"
+DB_DATABASE="database_name"
+DB_USERNAME= "database_username"
+DB_PASSWORD="database_password"
+```
+
+After then , run the development server:
 
 ```bash
 npm run dev
